@@ -73,10 +73,9 @@ h3{
     list-style: none;
     text-align: justify;
     display: flex;
-    justify-content: start;
+    justify-content:flex-start;
     align-items: center;
     width: 100%;
-    display: flex;
 }
 
 .icon{
