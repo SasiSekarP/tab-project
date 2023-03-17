@@ -1,0 +1,84 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.errorMessage{
+    background-image: url('./loading-gif.gif');
+    min-width: 320px;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.appScreen{
+    min-height: 80vh;
+}
+
+.experienceHead{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.headBtn{
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 0px;
+}
+
+.row1{
+    width: 100%;
+    text-align: center;
+}
+
+.active{
+    color: gray;
+    margin-bottom: solid 2px rgb(83, 82, 82);
+    border-bottom: 3px solid gray;
+}
+
+.companyTag{
+    background-color: rgb(183, 183, 183);
+    width: 7rem;
+    text-align: center;
+    border-radius: 2px;
+    padding: 1px 0px;
+}
+
+h3{
+    margin: 10px 0px;
+}
+
+.list{
+    width: 100%;
+}
+
+.list-item{
+    margin: 1rem 0px;
+    list-style: none;
+    text-align: justify;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+.icon{
+    margin-right: 1rem;
+}
